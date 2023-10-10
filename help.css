@@ -35,6 +35,19 @@
   bottom: -10.6%;
   left: 86.12%;
 }
+.story {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 140%;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.story:hover {
+  color: #2f59ed;
+  font-weight: bold;
+}
 .finance,
 .shape {
   position: relative;
@@ -104,9 +117,9 @@
   align-items: center;
 }
 .navbar-menu {
-  width: 377px;
-  justify-content: space-between;
-  font-size: 14px;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: 32px;
 }
 .left-content {
   flex: 1;
