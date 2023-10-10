@@ -188,13 +188,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #2f59ed;
+  color:  black;
 }
 .story {
   position: relative;
   letter-spacing: 1px;
   line-height: 140%;
   font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.story:hover {
+  color: #2f59ed;
+  font-weight: bold;
 }
 .navbar-menu-item1 {
   border-radius: 6px;
@@ -1036,7 +1043,6 @@
   width: 100%;
   height: 3919px;
   overflow: hidden;
-  background-image: url(./public/page-daccueil@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
